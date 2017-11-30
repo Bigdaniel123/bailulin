@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>白鹭林集团</title>
+    <link rel="stylesheet" type="text/css" href="__TMPL__Public/assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="__TMPL__Public/assets/css/commen.css">
+    <link rel="stylesheet" type="text/css" href="__TMPL__Public/assets/css/index.css">
+    <script>
+        var details = function(){
+            var content=document.getElementById('content');
+            if(content.style.display == 'none'){
+                content.style.display ='block';
+            }else{
+                content.style.display = 'none';
+            }
+        }
+        var baobei = function(){
+            var bao = document.getElementById('bao');
+            if(bao.style.display =='none'){
+                bao.style.display ='block';
+            }else{
+                bao.style.display='none';
+            }
+        }
+        var qiche = function(){
+            var qi =document.getElementById('qi');
+            if(qi.style.display == 'none'){
+                qi.style.display ='block';
+            }else{
+                qi.style.display='none';
+            }
+        }
+        var bailu =function(){
+            var bai =document.getElementById('bai');
+            if(bai.style.display =='none'){
+                bai.style.display = 'block';
+            }else{
+                bai.style.display='none';
+            }
+        }
+        var gengxin = function(){
+            var geng = document.getElementById('geng');
+            if(geng.style.display == 'none'){
+                geng.style.display ='block';
+            }else {
+                geng.style.display = 'none';
+
+            }
+        }
+    </script>
+</head>
+<body>
+<!--头部-->
+<tc_include file="Public:nav"/>
+<!--轮播图-->
+<img src="__TMPL__Public/assets/image/index/index.png">
+<!--中间灰色部分-->
+<div class="inform">
+    <div class="public-container">
+        <div class="inform-left">
+            <img src="__TMPL__Public/assets/image/index/gonggao.png"><p><b style="font-family: HYQiHeiX1-55W;color:#323232">最新公告</b><span style="color: #666666; font-size:14px;padding-left: 20px;font-family: HYQiHeiX1-35W ">|      关于白鹭控股集团人事任命通知 2017-08-16</span></p>
+        </div>
+            <a href="javascript:void(0)" onclick="details()" style="color: #ff8904;">更多>></a>
+        <div id="content" style="display:none;position:absolute;top:660px;width:2000px;height: 200px;background-color: #00a2d4"><p style="text-align:center;color: #fff;">详细信息</p></div>
+    </div>
+</div>
+<!--首页中间内容-->
+<div class="content">
+    <div class="public-container">
+        <div class="content-top">
+            <div class="top-title">
+                <p class="service">我<span>们的服</span>务</p>
+                <p>白鹿集团旗下三大子公司,全方位为您做好车险,汽车,互联网等相关服务</p>
+            </div>
+            <div class="top-content">
+                <div class="left">
+                    <div class="shang" style="border-bottom: 1px solid #d6d2d2">
+                        <img  style="margin:0 auto;margin-bottom: 20px" src="__TMPL__Public/assets/image/index/fenqishenqing.png">
+                    </div>
+                    <b style="padding-left: 85px;display: block;padding-top: 20px; padding-bottom:20px;color: #323232">保呗分期</b>
+                    <div class="xia" style="border-top: 1px solid #d6d2d2">
+                         <p style="margin-top: 30px; font-family: HYQiHeiX1-35W;color: #323232">保呗分期专注车险分期事业，现主要有小汽车和货车两大车险分期板块儿。立足宁波，辐射全国。平台运行半年多以来，成交额累计达1500多万，成交单数1000余单，深受广大汽车用户的青睐。</p>
+                    </div>
+                </div>
+                <div class="middle">
+                    <div class="shang" style="border-bottom: 1px solid #d6d2d2">
+                        <img style="margin:0 auto;margin-bottom: 20px" src="__TMPL__Public/assets/image/index/qichejinrong.png">
+                    </div>
+                    <b style="padding-left: 85px;display: block;padding-top: 20px; padding-bottom:20px;color: #323232">重拓汽车</b>
+                    <div class="xia" style="border-top: 1px solid #d6d2d2">
+                        <p style="margin-top: 30px; font-family: HYQiHeiX1-35W;color: #323232">众拓汽车在汽车金融服务行业已深耕多年，凭借专业的运营团队和业务团队，诚信、务实、高效的业务风格，已成功树立出良好的市场形象和口碑。</p>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="shang" style="border-bottom: 1px solid #d6d2d2">
+                        <img  style="margin:0 auto ;margin-bottom: 20px" src=" __TMPL__Public/assets/image/index/kejidongtai.png">
+                    </div>
+                    <b style="padding-left: 85px;display:block;padding-top: 20px; padding-bottom:20px;color: #323232">白鹭林科技</b>
+                    <div class="xia" style="border-top: 1px solid #d6d2d2">
+                        <p style="margin-top: 30px; font-family: HYQiHeiX1-35W;color: #323232">白鹭集团旗下专业的互联网科技公司，主要负责集团互联网业务板块
+                            目前已成功高效高质量完成多个互联网项目的设计开发、交付使用、后期维护。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="top-foot">
+                <div class="left">
+                    <a  style="color:#ffffff" href="javascript:void(0)" onclick="baobei()">更多>></a>
+                    <div id="bao"  style="display:none;background-color: #1abc9c;width:200px;height:200px;position:absolute;top:1180px;"><p style="color: #fff;text-align: center">详细信息</p></div>
+                </div>
+                <div class="middle">
+                    <a style="color:#ffffff" href="javascript:void(0)" onclick="qiche()">更多>></a>
+                    <div id="qi" style="display:none;background-color: #1abc9c;width:200px;height:200px;position:absolute;top:1180px;"><p style="color: #fff;text-align: center">详细信息</p></div>
+                </div>
+                <div class="right">
+                    <a style="color:#ffffff" href="javascript:void(0)" onclick="bailu()">更多>></a>
+                    <div id="bai" style="display:none;background-color: #1abc9c;width:200px;height:200px;position:absolute;top:1180px;"><p style="color: #fff;text-align: center">详细信息</p></div>
+                </div>
+            </div>
+        </div>
+        <div class="content-foot">
+            <div class="foot-title">
+                <p class="trends">公<span>司动</span>态</p>
+                <b style="margin-top: 30px;font-family: HYQiHeiX1-45W;color: #323232;">白鹿集团最新新闻动态实时更新</b>
+            </div>
+            <div class="dongtai">
+                <div class="gengxin">
+                    <div class="juzhong" >
+                        <div class="one">保呗分期</div>
+                        <div class="two">更新啦</div>
+                        <div class="three">升级只为给你更好的</div>
+                        <div class="four"><a href="javascript:void(0)" onclick="gengxin()">点击查看>></a></div>
+                        <div id="geng" style="display:none;position:absolute;top:250px"><img src="__TMPL__Public/assets/image/index/baobei.png" ></div>
+                    </div>
+                </div>
+                <div class="topic">
+                    <div class="left">
+                        <div class="pic"><img src="__TMPL__Public/assets/image/index/tp.png"></div>
+                        <div class="font" >
+                            <p style="font-family: HYQiHeiX1-65W;font-size: 16px;color:#323232">互联网金融是时下热门的话题？</p>
+                            <p class="wenzi">
+                                一般的理解，互联网技术在金融中的应</br>
+                                用现在已经是想但普遍了
+                            </p>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <ul>
+                            <li class="li">一般的理解，互联网技术在金融中的应</br>
+                                用现在已经是相当普遍了
+                            </li>
+                            <li class="lii" style="padding-left: 250px; ">2017-08-11</li>
+                            <li class="li">
+                                一般的理解，互联网技术在金融中的应</br>
+                                用现在已经是相当普遍了
+                            </li>
+                            <li class="lii" style="padding-left: 250px;">2017-08-11</li>
+                            <li class="li">
+                                一般的理解，互联网技术在金融中的应</br>
+                                用现在已经是相当普遍了
+                            </li>
+                            <li class="lii" style="padding-left: 250px;">2017-08-11</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--尾部-->
+<tc_include file="Public:footer"/>
+</body>
+</html>

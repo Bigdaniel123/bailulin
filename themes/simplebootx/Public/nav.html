@@ -1,0 +1,83 @@
+<script tyep="text/javascript">
+	function hidImg(){
+	    document.getElementById("img").style.display='none';
+	}
+	function showImg(){
+	    document.getElementById("img").style.display='block';
+//		alert(123);
+	}
+	function showEmail(){
+		document.getElementById("email").style.display='block';
+	}
+	function hidEmail(){
+		document.getElementById("email").style.display='none';
+	}
+	function showImg1(){
+        document.getElementById("img1").style.display='block';
+
+	}
+	function hidImg1(){
+	    document.getElementById("img1").style.display='none';
+	}
+    function showImg2(){
+        document.getElementById("img2").style.display='block';
+
+    }
+    function hidImg2(){
+        document.getElementById("img2").style.display='none';
+    }
+    function showImg3(){
+        document.getElementById("img3").style.display='block';
+
+    }
+    function hidImg3(){
+        document.getElementById("img3").style.display='none';
+    }
+</script>
+<style>
+
+</style>
+<div class="public-header">
+	<div class="header-top">
+		<div class="public-container">
+			<img src="__TMPL__Public/assets/image/index/dianhua.png"><span>客服热线  0574 - 87630719</span>
+			<ul class="header-nav " >
+				<li class="item"><a href="javascript:void(0)" onmouseout="hidImg()" onclick="showImg()">帮助中心</a></li>
+
+
+				<li class="item"><a href="javascript:void(0)" onclick="showEmail()" onmouseout="hidEmail()">企业邮箱</a></li>
+
+
+				<li class="item" ><a href="javascript:void(0)" onmouseout="hidImg1()" onclick="showImg1()"><img src="__TMPL__Public/assets/image/index/weixinkefu.png">微信客服</a></li>
+
+
+				<li class="item" ><a href="javascript:void(0)" onmouseout="hidImg2()" onclick="showImg2()"><img src="__TMPL__Public/assets/image/index/qqkefu.png">QQ客服</a></li>
+
+
+				<li class="item"><a href="javascript:void(0)" onmouseout="hidImg3()" onclick="showImg3()"><img src="__TMPL__Public/assets/image/index/saoma.png">保呗分期公众号</a></li>
+
+
+			</ul>
+			<div id="img" style="display:none;height:50px;position:absolute;top:40px;left:1160px"><img src="__TMPL__Public/assets/image/index/dai.jpg"></div>
+			<div id="email"style="display:none;width:170px;height:170px;position:absolute;top:40px;left:1220px;background-color: #ff7300"><p style="color:#fff;text-align: center;">邮箱</p><p style="color: #fff;text-align: center">3285540863@qq.com</p></div>
+			<div id="img1" style="display:none;height:50px;position:absolute;top:40px;left:1330px"><img src="__TMPL__Public/assets/image/index/dai.jpg"></div>
+			<div id="img2" style="display:none;height:50px;position:absolute;top:40px;left:1430px"><img src="__TMPL__Public/assets/image/index/dai.jpg"></div>
+			<div id="img3" style="display:none;height:50px;position:absolute;top:40px;left:1560px"><img style="width:160px;height:160px" src="__TMPL__Public/assets/image/index/baobei.png"></div>
+		</div>
+	</div>
+	<!--导航栏-->
+	<div class="header-foot">
+		<div class="public-container">
+			<div class="header-logo">
+				<img src="__TMPL__Public/assets/image/index/logo.png">
+			</div>
+			<ul class="header-nav1" clearfloat>
+				<li class="item1 <?php if(ACTION_NAME == 'index'){echo 'active';}?>"><a href="http://{$_SERVER['HTTP_HOST']}">首页</a></li>
+				<li class="item1 <?php if(ACTION_NAME == 'news'){echo 'active';}?>"><a href="{:U('User/News/news')}">新闻资讯</a></li>
+				<li class="item1 <?php if(ACTION_NAME == 'rencai'){echo 'active';}?>"><a href="{:U('User/Rencai/rencai')}">人才招聘</a></li>
+				<li class="item1 <?php if(ACTION_NAME == 'lianxi'){echo 'active';}?>"><a href="{:U('User/Lianxi/lianxi')}">联系我们</a></li>
+				<li class="item1 <?php if(ACTION_NAME == 'guanyu'){echo 'active';}?>"><a href="{:U('User/Guanyu/guanyu')}">关于我们</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
